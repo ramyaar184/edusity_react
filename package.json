@@ -1,6 +1,6 @@
 {
-  "name": "edusity",
-  "homepage": "https://github.com/ramyaar184/edusitynpm run build",
+  "name": "edusity_react",
+  "homepage": "https://github.com/ramyaar184/edusity_react",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,8 +9,8 @@
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.2.0",
